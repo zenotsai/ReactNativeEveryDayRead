@@ -1,0 +1,29 @@
+{
+	"name": "everyDayRead",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"prop-types": "^15.6.1",
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.44.3",
+		"react-native-drawer": "^2.5.0",
+		"react-native-easy-toast": "^1.1.0",
+		"react-native-modal": "^6.0.0",
+		"react-native-vector-icons": "^4.6.0",
+		"react-navigation": "^1.5.11"
+	},
+	"devDependencies": {
+		"babel-jest": "22.4.4",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "22.4.4",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
